@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Professional Portfolio</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Portfolio</a>
+
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container text-center">
+      <h1>Hello, I'm <span>Vijay</span></h1>
+
+      <p>
+        A passionate Frontend Developer creating responsive and
+        professional websites.
+      </p>
+
+      <a href="#projects" class="btn btn-custom mt-4">View Projects</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>About Me</h2>
+        <p>Professional Web Developer</p>
+      </div>
+
+      <div class="row align-items-center about-box">
+
+        <div class="col-md-6">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1170&auto=format&fit=crop"
+               class="img-fluid rounded-4"
+               alt="">
+        </div>
+
+        <div class="col-md-6 mt-4 mt-md-0">
+          <h3>Frontend Developer</h3>
+
+          <p>
+            I build responsive and user-friendly websites using
+            HTML, CSS, Bootstrap, and JavaScript.
+          </p>
+
+          <p>
+            I focus on modern UI/UX design and clean coding practices.
+          </p>
+
+          <button class="btn btn-custom">Download CV</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Skills</h2>
+        <p>Technologies I use</p>
+      </div>
+
+      <div class="row g-4">
+
+        <div class="col-md-3">
+          <div class="skill-card">
+            <i class="fa-brands fa-html5"></i>
+            <h4>HTML5</h4>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="skill-card">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h4>CSS3</h4>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="skill-card">
+            <i class="fa-brands fa-bootstrap"></i>
+            <h4>Bootstrap</h4>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="skill-card">
+            <i class="fa-brands fa-js"></i>
+            <h4>JavaScript</h4>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Projects</h2>
+        <p>Recent Works</p>
+      </div>
+
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <div class="project-card">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1172&auto=format&fit=crop" alt="">
+
+            <div class="project-content">
+              <h4>E-Commerce Website</h4>
+
+              <p>
+                Responsive shopping website with modern UI design.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="project-card">
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1170&auto=format&fit=crop" alt="">
+
+            <div class="project-content">
+              <h4>Portfolio Website</h4>
+
+              <p>
+                Personal responsive portfolio website design.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="project-card">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1169&auto=format&fit=crop" alt="">
+
+            <div class="project-content">
+              <h4>Landing Page</h4>
+
+              <p>
+                Attractive landing page for startup business.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Contact</h2>
+        <p>Get in touch</p>
+      </div>
+
+      <div class="contact-box">
+
+        <div class="row">
+
+          <div class="col-md-6">
+            <h4>Contact Information</h4>
+
+            <p><i class="fa-solid fa-envelope"></i> yourmail@gmail.com</p>
+
+            <p><i class="fa-solid fa-phone"></i> +91 **********</p>
+
+            <p><i class="fa-solid fa-location-dot"></i> Vijayawada, India</p>
+          </div>
+
+          <div class="col-md-6">
+
+            <form id="contactForm">
+
+              <input type="text" class="form-control" placeholder="Your Name" required>
+
+              <input type="email" class="form-control" placeholder="Your Email" required>
+
+              <textarea rows="5" class="form-control" placeholder="Your Message" required></textarea>
+
+              <button type="submit" class="btn btn-custom">
+                Send Message
+              </button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Your Portfolio | All Rights Reserved</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
